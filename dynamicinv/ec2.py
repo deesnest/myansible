@@ -1,36 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@deesnest 
-ansible
-/
-ansible
-2k
-49.6k21k
-Code
-Issues
-1.1k
-Pull requests
-514
-Actions
-Projects
-21
-Security
-Insights
-ansible/contrib/inventory/ec2.py /
-@veryeasily
-veryeasily Fix ec2.py dynamic inventory script when pulling down RDS cluster inf…
-…
-Latest commit 60378e9 on Jun 25, 2019
- History
- 62 contributors
-@bcoca@mattclay@willthames@ryansb@sivel@alexlo03@amenonsen@jalaziz@adamchainz@khushil@Jonnymcc@hkariti
-Executable File  1712 lines (1407 sloc)  71.4 KB
-  
 #!/usr/bin/env python
 
 '''
